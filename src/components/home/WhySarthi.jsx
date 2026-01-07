@@ -72,7 +72,7 @@ export default function WhySarthi() {
 
   
               <Image
-                src="/mobile.webp"
+                src="/mobile.png"
                 alt="Sarthi App"
                 width={500}
                 height={100}
