@@ -51,7 +51,7 @@ export default function TourCard({
         <p className="text-sm text-gray-500">{locations}</p>
 
         <div className="flex items-center gap-2 text-xs text-gray-500">
-          ✈️ Flight Not Included
+          🏠 Hotel Not Included
         </div>
 
         {/* Price */}

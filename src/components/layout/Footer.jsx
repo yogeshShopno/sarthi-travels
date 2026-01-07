@@ -74,7 +74,7 @@ export default function Footer() {
                     {[
                         "CAR & BUS RENTAL",
                         "HOTEL BOOKING",
-                        "FLIGHT BOOKING",
+                        "Bus BOOKING",
                         "ONE DAY PICNIC",
                         "DOMESTIC & INTERNATIONAL TOURS",
                         "FARM HOUSE ON RENT",

@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const features = [
   {
-    title: "Search Flights and Hotels with Exclusive Deals",
+    title: "Search Bus and Hotels with Exclusive Deals",
     description:
-      "Search for exclusive deals on flights and hotels. Find cheap air tickets to any destination you like. Choose from its vast repository of hotels - from budget, mid-range, five-star to niche boutique properties. Widen your choices with options like flexi stay, pay directly at hotel, and guaranteed standard amenities. Extremely efficient and easy.",
+      "Search for exclusive deals on Bus and hotels. Find cheap air tickets to any destination you like. Choose from its vast repository of hotels - from budget, mid-range, five-star to niche boutique properties. Widen your choices with options like flexi stay, pay directly at hotel, and guaranteed standard amenities. Extremely efficient and easy.",
     open: true,
   },
   {
-    title: "Enjoy Secure Flight Bookings with Protection",
+    title: "Enjoy Secure Bus Bookings with Protection",
   },
   {
     title: "Holiday Options for Every Budget and Interest",
@@ -20,7 +20,7 @@ const features = [
     title: "Skip the Ticket Queue for Monument Visits",
   },
   {
-    title: "Get New Deals Every Season for Flights and Hotels",
+    title: "Get New Deals Every Season for Bus and Hotels",
   },
   {
     title: "Customer Support Backed by Millions of Satisfied Travelers",
