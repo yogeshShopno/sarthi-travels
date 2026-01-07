@@ -46,7 +46,7 @@ export default function Header() {
               href="tel:+918141884446"
               className="font-semibold text-[#42194C]"
             >
-              +91 11111 11111
+             Login / register
             </a>
           </div>
 
