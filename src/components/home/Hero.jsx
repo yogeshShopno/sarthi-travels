@@ -53,7 +53,7 @@ export default function Hero() {
               <button className="flex-1 py-4 text-sm font-medium text-gray-700 border-r">
                 Activities
               </button>
-              <button className="flex-1 py-4 text-sm font-medium bg-red-700 text-white">
+              <button className="flex-1 py-4 text-sm font-medium bg-[#42194C] text-white">
                 Transport
               </button>
             </div>
@@ -80,7 +80,7 @@ export default function Hero() {
                 <p className="text-sm font-medium">Your Mobile No</p>
               </div>
 
-              <button className="bg-red-700 text-white font-semibold text-sm flex items-center justify-center">
+              <button className="bg-[#42194C] text-white font-semibold text-sm flex items-center justify-center">
                 Search
               </button>
             </div>

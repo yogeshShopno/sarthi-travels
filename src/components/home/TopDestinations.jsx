@@ -41,14 +41,14 @@ const destinations = [
 
 export default function TopDestinations() {
     return (
-        <section className="max-w-7xl mx-auto px-4 py-14">
+        <section className="max-w-7xl mx-auto px-4 py-8">
             {/* Heading */}
             <div className="mb-8">
                 <h2 className="text-3xl font-semibold text-gray-900">
                     Top Destinations
                 </h2>
                 <p className="text-gray-500 mt-1">
-                    Most visited destinations by Krimoni tourist arrivals
+                    Most visited destinations by Sarthi tourist arrivals
                 </p>
             </div>
 
@@ -65,6 +65,15 @@ export default function TopDestinations() {
 
                     </div>
                 ))}
+            </div>
+                     {/* Heading */}
+            <div className="mt-8">
+                <h2 className="text-3xl font-semibold text-gray-900">
+                    Top Packages
+                </h2>
+                <p className="text-gray-500 mt-1">
+                    Most visited Packages by Sarthi tourist arrivals
+                </p>
             </div>
         </section>
     );

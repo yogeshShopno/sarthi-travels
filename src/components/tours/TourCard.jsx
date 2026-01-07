@@ -63,7 +63,7 @@ export default function TourCard({
                 {" "}per person
               </span>
             </div>
-            <p className="text-xs text-red-700 underline cursor-pointer">
+            <p className="text-xs text-[#42194C] underline cursor-pointer">
               EMI from ₹{emi}/month
             </p>
           </div>
@@ -75,10 +75,10 @@ export default function TourCard({
 
         {/* Actions */}
         <div className="flex gap-3 pt-2">
-          <button className="flex-1 rounded-lg border border-red-700 py-2 text-sm font-medium text-red-700 hover:bg-blue-50">
+          <button className="flex-1 rounded-lg border border-[#42194C] py-2 text-sm font-medium text-[#42194C] hover:bg-blue-50">
             Call Now
           </button>
-          <button className="flex-1 rounded-lg bg-red-700 py-2 text-sm font-medium text-white hover:bg-red-700">
+          <button className="flex-1 rounded-lg bg-[#42194C] py-2 text-sm font-medium text-white hover:bg-[#42194C]">
             View Details
           </button>
         </div>

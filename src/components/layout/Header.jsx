@@ -23,28 +23,28 @@ export default function Header() {
               height={38}
               priority
             />
-              <p className="text-md font-bold text-red-700"> TOURS & TRAVELS</p>
+              <p className="text-md font-bold text-[#42194C]"> TOURS & TRAVELS</p>
 
             </div>
           </Link>
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
-            <Link href="/" className="hover:text-red-700">Home</Link>
-            <Link href="/about" className="hover:text-red-700">About</Link>
-            <Link href="/tours" className="hover:text-red-700">
+            <Link href="/" className="hover:text-[#42194C]">Home</Link>
+            <Link href="/about" className="hover:text-[#42194C]">About</Link>
+            <Link href="/tours" className="hover:text-[#42194C]">
               Tours +
             </Link>
-            <Link href="/cabs" className="hover:text-red-700">Cabs</Link>
-            <Link href="/blogs" className="hover:text-red-700">Blogs</Link>
-            <Link href="/contact" className="hover:text-red-700">Contact</Link>
+            <Link href="/cabs" className="hover:text-[#42194C]">Cabs</Link>
+            <Link href="/blogs" className="hover:text-[#42194C]">Blogs</Link>
+            <Link href="/contact" className="hover:text-[#42194C]">Contact</Link>
           </nav>
 
           {/* Right Info */}
           <div className="hidden md:flex items-center gap-2 text-sm">
             <a
               href="tel:+918141884446"
-              className="font-semibold text-red-700"
+              className="font-semibold text-[#42194C]"
             >
               +91 11111 11111
             </a>
@@ -74,7 +74,7 @@ export default function Header() {
 
             <a
               href="tel:+911111111111"
-              className="mt-2 font-semibold text-red-700"
+              className="mt-2 font-semibold text-[#42194C]"
             >
               +1 11111 11111
             </a>
