@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+/* ===============================
+   CSS VARIABLES
+================================ */
+
+:root {
+  --background: #ffffff;
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
