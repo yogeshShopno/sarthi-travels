@@ -46,13 +46,11 @@ export default function Hero() {
           <div className=" rounded-2xl overflow-hidden shadow-lg w-full">
 
             {/* Tabs – FULL WIDTH */}
-            <div className="grid grid-cols-3 w-full">
+            <div className="grid grid-cols-2 w-full">
               <button className="bg-gray-100 py-4 text-sm font-medium text-gray-700 border-r">
                 Tour
               </button>
-              <button className="bg-gray-100 py-4 text-sm font-medium text-gray-700 border-r">
-                Activities
-              </button>
+
               <button className="bg-[#42194C] py-4 text-sm font-medium bg-[#42194C] text-white">
                 Transport
               </button>

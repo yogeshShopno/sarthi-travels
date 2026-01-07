@@ -33,10 +33,9 @@ export default function Header() {
             <Link href="/" className="hover:text-[#42194C]">Home</Link>
             <Link href="/about" className="hover:text-[#42194C]">About</Link>
             <Link href="/tours" className="hover:text-[#42194C]">
-              Tours +
+             Packages
             </Link>
-            <Link href="/cabs" className="hover:text-[#42194C]">Cabs</Link>
-            <Link href="/blogs" className="hover:text-[#42194C]">Blogs</Link>
+            <Link href="/cabs" className="hover:text-[#42194C]">Transport</Link>
             <Link href="/contact" className="hover:text-[#42194C]">Contact</Link>
           </nav>
 
