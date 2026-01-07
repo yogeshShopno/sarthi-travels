@@ -42,40 +42,40 @@ export default function Hero() {
         </div>
 
         {/* Search Box */}
-        <div className="relative z-20 -mt-16 px-4 pb-6">
-          <div className="bg-gray-100 rounded-2xl overflow-hidden shadow-lg">
+        <div className="relative z-20 -mt-13 pb-6">
+          <div className=" rounded-2xl overflow-hidden shadow-lg w-full">
 
-            {/* Tabs */}
-            <div className="flex">
-              <button className="flex-1 py-4 text-sm font-medium text-gray-700 border-r">
+            {/* Tabs – FULL WIDTH */}
+            <div className="grid grid-cols-3 w-full">
+              <button className="bg-gray-100 py-4 text-sm font-medium text-gray-700 border-r">
                 Tour
               </button>
-              <button className="flex-1 py-4 text-sm font-medium text-gray-700 border-r">
+              <button className="bg-gray-100 py-4 text-sm font-medium text-gray-700 border-r">
                 Activities
               </button>
-              <button className="flex-1 py-4 text-sm font-medium bg-[#42194C] text-white">
+              <button className="bg-[#42194C] py-4 text-sm font-medium bg-[#42194C] text-white">
                 Transport
               </button>
             </div>
 
-            {/* Inputs */}
-            <div className="grid grid-cols-1 md:grid-cols-5 gap-0">
-              <div className="p-4 border-t md:border-r">
+            {/* Inputs – SAME WIDTH AS TABS */}
+            <div className="bg-gray-100 grid grid-cols-1 md:grid-cols-5 mt-5">
+              <div className="p-4   md:border-r">
                 <label className="text-xs text-gray-500">From</label>
                 <p className="text-sm font-medium">Select From City</p>
               </div>
 
-              <div className="p-4 border-t md:border-r">
+              <div className="p-4 md:border-r">
                 <label className="text-xs text-gray-500">To</label>
                 <p className="text-sm font-medium">Select To City</p>
               </div>
 
-              <div className="p-4 border-t md:border-r">
+              <div className="p-4  md:border-r">
                 <label className="text-xs text-gray-500">Journey Date</label>
                 <p className="text-sm font-medium">Sep 12 - Sep 20</p>
               </div>
 
-              <div className="p-4 border-t md:border-r">
+              <div className="p-4  md:border-r">
                 <label className="text-xs text-gray-500">Mobile No</label>
                 <p className="text-sm font-medium">Your Mobile No</p>
               </div>

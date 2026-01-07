@@ -2,12 +2,15 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-[#42194C] pt-0 m-1">
-            {/* Top Light Container */}
-            <div className="max-w-7xl mx-auto px-6">
-                <div className="bg-[#fbf5ef] rounded-[28px] p-10 flex flex-col lg:flex-row gap-10" style={{
-                    backgroundImage: "url('/footer-bg.svg')",
-                }}>
+        <footer className="relative w-full bg-[#42194C] overflow-visible pt-20">
+            {/* Top Light Container (OVERFLOW UP) */}
+            <div className="max-w-7xl mx-auto px-6 -mt-56 relative z-10">
+                <div
+                    className="bg-[#fbf5ef] rounded-[28px] p-10 flex flex-col lg:flex-row gap-10 shadow-xl"
+                    style={{
+                        backgroundImage: "url('/footer-bg.svg')",
+                    }}
+                >
                     {/* Left Links */}
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 flex-1">
                         <div>
@@ -56,18 +59,13 @@ export default function Footer() {
                     </div>
 
                     {/* Right Illustration */}
-                    <div className=" w-full lg:w-[320px] flex flex-col items-end justify-between " >
-                        <div className="flex items-center gap-2 mb-4">
-                            <span className="text-sm font-medium">PAYMENT PARTNER</span>
-                            <Image
-                                src="/razorpay.svg"
-                                alt="Razorpay"
-                                width={90}
-                                height={24}
-                            />
-                        </div>
-
-
+                    <div className="w-full lg:w-[320px] flex flex-col items-end justify-between">
+                        <Image
+                            src="/razorpay.svg"
+                            alt="Razorpay"
+                            width={200}
+                            height={15}
+                        />
                     </div>
                 </div>
 
@@ -93,14 +91,11 @@ export default function Footer() {
             </div>
 
             {/* Bottom Dark Section */}
-            <div className="mt-16 text-center text-white px-6 pb-8">
-
-                <p className="text-sm text-white-300">
+            <div className="mt-20 text-center text-white px-6 pb-8">
+                <p className="text-sm text-white/80">
                     © 2024 Sarthi Tours and Travels. All rights reserved. | Crafted with ❤️
                     by Shopno Ecommerce Pvt. Ltd.
                 </p>
-
-
             </div>
         </footer>
     );
